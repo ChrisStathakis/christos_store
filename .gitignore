@@ -1,0 +1,10 @@
+# Never commit installers to git — use GitHub Releases instead (supports 10-200MB+).
+*.exe
+*.msi
+*.apk
+*.dmg
+*.pkg
+*.zip
+*.rar
+*.7z
+*.iso

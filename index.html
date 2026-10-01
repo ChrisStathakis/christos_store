@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Apps — Downloads</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 id="site-title">My Apps</h1>
+      <p id="site-subtitle">Download installers for my apps.</p>
+      <div class="header-row">
+        <input id="search" type="search" placeholder="Search apps…" autocomplete="off" />
+        <a id="github-link" class="btn secondary" href="#" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div id="setup-banner" class="banner" hidden></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="status" class="status">Loading releases…</div>
+    <div id="app-grid" class="grid"></div>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Installers are hosted as <a href="https://docs.github.com/en/repositories/releasing-projects-on-github/about-releases">GitHub Releases</a> (supports 10–200 MB files). Page auto-updates from the Releases API.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
