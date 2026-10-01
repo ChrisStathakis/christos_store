@@ -1,14 +1,14 @@
-# christos_page — app download site
+# christos_store — app download site
 
 Static GitHub Pages site for `ChrisStathakis`. Installers (10–200 MB) are **not** committed to git — they live in **GitHub Releases**, the page just links to them.
 
 Live URL after setup:
-- Project site: `https://chrisstathakis.github.io/christos_page/`
+- Project site: `https://chrisstathakis.github.io/christos_store/`
 - Or user site if repo is named `ChrisStathakis.github.io`
 
 ## 1. Create the repo
 
-1. GitHub → New repository → name `christos_page`, Public, no template.
+1. GitHub → New repository → name `christos_store`, Public, no template.
 2. Push this folder:
 ```powershell
 cd C:\projects\christos_page
@@ -16,7 +16,7 @@ git init
 git add .
 git commit -m "download site"
 git branch -M main
-git remote add origin https://github.com/ChrisStathakis/christos_page.git
+git remote add origin https://github.com/ChrisStathakis/christos_store.git
 git push -u origin main
 ```
 
